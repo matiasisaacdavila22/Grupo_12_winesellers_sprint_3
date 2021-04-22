@@ -1,12 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Venta de Vinos</title>
+    <link rel='stylesheet' href='./css/normalize.css' />
+    <link rel="stylesheet" href="css/Styles.css" type="text/css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Bebas+Neue&family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>testeando</h1>
+    <header>
+        <div>
+            <a href="/login">Ingresar</a>
+            <span>/</span>
+            <a href="/register">Registrarse</a>
+            <i class="fas fa-address-card"></i>
+            <img src="/img/Logo.jpg">
+            <p></p>
+
+        </div>
+    </header>
+    <main>
+        <div class="titular">
+            <h2 class="titulo">Mis Compras..</h2><i class="fas fa-shopping-cart"></i>
+        </div>
+        <div class="container">
+            <section class="detalle">
+                <div class="productos">
+                    <article class="article">
+                        <div class="producto">
+                            <h2>Producto</h2>
+                            <img src="/Img/Logo.jpg" alt="vino" class="product_img">
+                        </div>
+                        <div class="descripcion">
+                            <h2>Descripcion</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing el</p>
+                        </div>
+                        <div class="row">
+                            <div class="cantidad">
+                                <h2>Cantidad</h2>
+                                <div class="btns">
+                                    <button>-</button><input type="text" value="1" class="cantidad"><button>+</button>
+                                </div>        
+                            </div>
+                            <div class="precio">
+                                <h2>Total</h2>
+                                <h2>$450</h3>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="article">
+                        <div class="producto">
+                            <h2>Producto</h2>
+                            <img src="/Img/Logo.jpg" alt="vino" class="product_img">
+                        </div>
+                        <div class="descripcion">
+                            <h2>Descripcion</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing el</p>
+                        </div>
+                        <div class="row">
+                            <div class="cantidad">
+                                <h2>Cantidad</h2>
+                                <div class="btns">
+                                    <button>-</button><input type="text" value="1" class="cantidad"><button>+</button>
+                                </div>        
+                            </div>
+                            <div class="precio">
+                                <h2>Total</h2>
+                                <h2>$450</h3>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="resumen">
+                <div class="subTotal">
+                    <button>Sumar cupon de descuento</button>
+                    <label for="">Subtotal:</label>
+                    <input type="text" name="subTotal" value="$5800">
+                </div>
+                <div class="total">
+                    <button>Calcular envio</button>
+                    <label for="">total:</label>
+                    <input type="text" name="total" value="$6800">
+                </div>
+                <div class="cart-btns">
+                    <button>Continuar comprando</button>
+                    <button>Finalizar Compra</button>
+                </div>
+
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+
+        </div>
+    </footer>
+
+
 </body>
+
 </html>
