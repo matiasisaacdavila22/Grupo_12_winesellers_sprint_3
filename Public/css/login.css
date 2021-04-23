@@ -16,12 +16,13 @@
     align-items: center;
     color: rgb(47, 47, 49);
     margin-top: 24px;
-      margin-left: 72px;
+    margin-bottom: 8px;
+    margin-left: 72px;
     font-size: x-large;
     }
 
   
-  .register {
+  .login {
     float: left;
     width: 600px;
     padding: 30px 20px;
@@ -42,7 +43,7 @@
     font-size: 1em;
   }
   
-  .btn-registrar{
+  .btn-login{
     margin-top: 25px;
     width: 80%;
     border: 0;
@@ -54,7 +55,7 @@
     font-size: 1em;
     transition: all 350ms;
   }
-  .btn-registrar:hover{
+  .btn-login:hover{
     background-color: rgb(144, 147, 145);
     color: black;
     font-size: 18px;
@@ -82,17 +83,15 @@
 
   input[type=checkbox]{
       width: 15px;
-      margin: 1px;
+      margin: 4px;
   }
 
   a{
-      color: #3a0cc2;
       margin-left: 2px;
       transition: all 200ms;
   }
 
   a:hover{
-    color: #180A41;
     font-weight: 700;
     
 }
@@ -100,6 +99,15 @@
 .check{
     display: flex;
     align-items: center;
+}
+
+.r-registrar{
+   margin-left: 250px;
+}
+
+.r-registrar a{
+    color: rgb(184, 24, 7);
+    margin-top: 40px;
 }
 
   
