@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Bebas Neue", cursive;
+    box-sizing: border-box;
+}
+  
+  #container {
+    width: 800px;
+    margin: auto;
+  }
+
+  .titular {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: rgb(47, 47, 49);
+    margin-top: 24px;
+    margin-bottom: 8px;
+    margin-left: 72px;
+    font-size: x-large;
+    }
+
+  
+  .register {
+    float: left;
+    width: 600px;
+    padding: 30px 20px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  input {
+    display: block;
+   margin: 0 auto;
+    width: 80%;
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    height: 45px;
+    line-height: 45px;  
+    margin-bottom: 10px;
+    font-size: 1em;
+  }
+  
+  .btn-registrar{
+    margin-top: 25px;
+    width: 80%;
+    border: 0;
+    background-color: rgb(61, 61, 61);
+    border-radius: 5px;
+    height: 50px;
+    color: white;
+    font-weight: 400;
+    font-size: 1em;
+    transition: all 350ms;
+  }
+  .btn-registrar:hover{
+    background-color: rgb(144, 147, 145);
+    color: black;
+    font-size: 18px;
+    border: 1px solid saddlebrown;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color:  #180A41;
+  }
+  
+  h1 {
+    color: rgba(0,0,0,.7);
+    font-weight: 900;
+    font-size: 2.5em;
+  }
+
+  .r-checkbox{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-left: 80px;
+      font-size: 11px;
+  }
+
+  input[type=checkbox]{
+      width: 15px;
+      margin: 1px;
+  }
+
+  a{
+      color: #3a0cc2;
+      margin-left: 2px;
+      transition: all 200ms;
+  }
+
+  a:hover{
+    color: #180A41;
+    font-weight: 800;
+    
+}
+
+  
