@@ -13,4 +13,4 @@ Nuestro sitio web se dedica a la venta de bebidas alcoholicas para mayores de 18
  https://www.nini.com.ar/ por su estilo comercial
 
 Tablero de Trello:
-https://trello.com/b/FN8p2lJC/sprint-2
+https://trello.com/b/FN8p2lJC/sprint-3
