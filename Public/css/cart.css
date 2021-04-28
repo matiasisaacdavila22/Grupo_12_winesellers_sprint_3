@@ -42,14 +42,14 @@
   display: flex;
   flex-flow: column;
   width: 100%;
-  background-color: rgb(47, 47, 49);
+  background-color: rgb(226, 224, 224);
   margin: auto;
   margin-top: 8px;
   border: 1px solid white;
   border-radius: 8px;
 }
 .article h2 {
-  color: rgb(255, 255, 255);
+  color: rgb(99, 98, 98);
   margin-bottom: 8px;
   font-weight: 300;
 }
@@ -81,7 +81,7 @@
 }
 
 .descripcion p {
-  color: white;
+  color: rgb(99, 98, 98);
   font-size: 18px;
 }
 
@@ -139,7 +139,7 @@
   display: flex;
   flex-flow: column;
   width: 90%;
-  background-color:  rgb(47, 47, 49);
+  background-color:  rgb(226, 224, 224);
   margin: auto;
 
   margin-top: 4px;
@@ -173,7 +173,7 @@
 
 .subTotal label {
   width: 25%;
-  color: aliceblue;
+  color: rgb(99, 98, 98);
   transition: all 350ms;
   font-size: 24px;
   text-align: center;
@@ -216,7 +216,7 @@
 
 .total label {
   width: 25%;
-  color: aliceblue;
+  color:rgb(99, 98, 98);;
   transition: all 350ms;
   font-size: 24px;
   text-align: center;
