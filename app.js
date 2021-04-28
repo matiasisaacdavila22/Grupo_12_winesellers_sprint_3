@@ -4,17 +4,15 @@ const port= process.env.PORT;
 const path = require("path");
 const publicPatch = path.resolve(__dirname, "./public");
 const userRouter = require('./routes/userRouter');
+const cartRouter = require('./routes/cartRouter');
 app.use(express.static("./Public"));
 app.set('view engine', 'ejs');
 
 app.use("/user", userRouter);
+app.use('/cart', cartRouter);
 
 app.get("/", (req, res) => { 
     res.render('home') 
-});
-
-app.get("/cart", (req, res) => {
-    res.render('cart') 
 });
 
 app.get("/productDetails", (req, res) => {
